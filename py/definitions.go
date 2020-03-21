@@ -370,5 +370,5 @@ func generateEntryList(pkg string, bb *bytes.Buffer, name string, def spec.Schem
 	bb.WriteString("        return self.to_dict_array().__str__()")
 	bb.WriteString("\n")
 	bb.WriteString("\n")
-
+	bb.WriteString("\n")
 }
